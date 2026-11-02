@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1000" viewBox="0 0 1180 1000">
+<rect width="100%" height="100%" fill="white"/>
+<text x="590" y="54.3" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" fill="#17232e">Bases de datos</text>
+<text x="590" y="93.9" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" fill="#17232e">Organizan datos relacionados para consultarlos y administrarlos</text>
+<rect x="380" y="128" width="420" height="95" rx="8" fill="#eaf3ed" stroke="#17365d" stroke-width="1.2"/>
+<text x="396" y="161.95" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" fill="#17232e">BASE DE DATOS</text>
+<text x="396" y="194.5" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#17232e">se administra mediante un SGBD</text>
+<polyline points="590,223 590,267 195,267 195,320" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="195,320 190.6503446588877,310.9955289764732 199.3496553411123,310.9955289764732" fill="#17365d"/>
+<rect x="20" y="320" width="350" height="222" rx="8" fill="#eaf2f8" stroke="#17365d" stroke-width="1.2"/>
+<text x="36" y="353.0" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#17232e">Conceptos fundamentales</text>
+<text x="36" y="384.1" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Dato: valor registrado</text>
+<text x="36" y="408.94" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Información: datos con sentido</text>
+<text x="36" y="433.78000000000003" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Esquema: estructura y reglas</text>
+<text x="36" y="458.62" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">SGBD: administra los datos</text>
+<polyline points="590,223 590,267 590,267 590,320" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="590,320 585.6503446588877,310.9955289764732 594.3496553411123,310.9955289764732" fill="#17365d"/>
+<rect x="415" y="320" width="350" height="222" rx="8" fill="#eaf2f8" stroke="#17365d" stroke-width="1.2"/>
+<text x="431" y="353.0" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#17232e">Objetivos</text>
+<text x="431" y="384.1" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Controlar redundancia</text>
+<text x="431" y="408.94" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Proteger y validar datos</text>
+<text x="431" y="433.78000000000003" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Coordinar acceso concurrente</text>
+<text x="431" y="458.62" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Separar datos y aplicaciones</text>
+<polyline points="590,223 590,267 985,267 985,320" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="985,320 980.6503446588877,310.9955289764732 989.3496553411123,310.9955289764732" fill="#17365d"/>
+<rect x="810" y="320" width="350" height="222" rx="8" fill="#eaf2f8" stroke="#17365d" stroke-width="1.2"/>
+<text x="826" y="353.0" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" fill="#17232e">Usos y aplicaciones</text>
+<text x="826" y="384.1" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Bancos: cuentas y pagos</text>
+<text x="826" y="408.94" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Comercios: ventas e inventario</text>
+<text x="826" y="433.78000000000003" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Salud: expedientes clínicos</text>
+<text x="826" y="458.62" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">Escuelas: alumnos y notas</text>
+<rect x="109.9609375" y="275.0" width="180.078125" height="26" fill="white"/>
+<text x="200" y="295.1" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">se comprende con</text>
+<rect x="556.4296875" y="275.0" width="67.140625" height="26" fill="white"/>
+<text x="590" y="295.1" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">busca</text>
+<rect x="924.1171875" y="275.0" width="121.765625" height="26" fill="white"/>
+<text x="985" y="295.1" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#17232e">se aplica en</text>
+<rect x="90" y="619" width="470" height="190" rx="8" fill="#eaf3ed" stroke="#17365d" stroke-width="1.2"/>
+<text x="106" y="653.9" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#17232e">Ejemplo relacional</text>
+<text x="106" y="687.9" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Tablas: Alumnos y Calificaciones</text>
+<text x="106" y="715.5" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Filas: registros de cada alumno</text>
+<text x="106" y="743.1" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Columnas: matrícula, nombre, nota</text>
+<text x="106" y="770.6999999999999" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Claves: identifican y relacionan datos</text>
+<rect x="620" y="619" width="470" height="190" rx="8" fill="#eaf3ed" stroke="#17365d" stroke-width="1.2"/>
+<text x="636" y="653.9" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#17232e">Relaciones y reglas</text>
+<text x="636" y="687.9" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Una matrícula identifica al alumno</text>
+<text x="636" y="715.5" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">Las notas se vinculan a esa matrícula</text>
+<text x="636" y="743.1" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">La vista limita lo que ve cada usuario</text>
+<text x="636" y="770.6999999999999" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" fill="#17232e">La integridad evita notas sin alumno</text>
+<polyline points="200,542 200,580 325,580 325,619" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="325,619 320.6503446588877,609.9955289764732 329.3496553411123,609.9955289764732" fill="#17365d"/>
+<polyline points="590,542 590,580 855,580 855,619" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="855,619 850.6503446588877,609.9955289764732 859.3496553411123,609.9955289764732" fill="#17365d"/>
+<polyline points="560,714 620,714" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="620,714 610.9955289764732,718.3496553411123 610.9955289764732,709.6503446588877" fill="#17365d"/>
+<text x="590" y="862.9" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" fill="#17232e">Un buen diseño conecta los datos con reglas y necesidades reales.</text>
+<text x="590" y="893.26" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" fill="#17232e">Ejemplo: registrar al alumno una vez y relacionarlo con sus materias.</text>
+<text x="590" y="949.15" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" fill="#526271">Elaboración propia a partir de Oracle y Silberschatz, Korth y Sudarshan</text>
+</svg>
