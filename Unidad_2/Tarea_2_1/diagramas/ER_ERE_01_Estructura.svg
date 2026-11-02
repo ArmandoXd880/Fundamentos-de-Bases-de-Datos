@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1040" viewBox="0 0 1640 1040">
+<rect width="100%" height="100%" fill="white"/>
+<text x="820.0" y="51.6" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Modelo E R extendido del préstamo deportivo</text>
+<polyline points="850,650 1610,650 1610,910 850,910 850,650" fill="none" stroke="#17365d" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="70" y="140" width="270" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="205.0" y="187.35999999999999" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Usuario</text>
+<rect x="900" y="140" width="270" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="1035.0" y="187.35999999999999" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Prestamo</text>
+<rect x="1370" y="140" width="210" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="1475.0" y="187.35999999999999" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">TipoMaterial</text>
+<rect x="50" y="450" width="260" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="180.0" y="497.36" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Alumno</text>
+<rect x="420" y="450" width="270" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="555.0" y="497.36" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Trabajador</text>
+<rect x="900" y="710" width="270" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<rect x="906" y="716" width="258" height="68" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="1035.0" y="757.36" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">DetallePrestamo</text>
+<rect x="1400" y="710" width="190" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="1495.0" y="757.36" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Ejemplar</text>
+<rect x="350" y="710" width="220" height="80" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="460.0" y="757.36" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Incidencia</text>
+<polygon points="610.0,140 700,180.0 610.0,220 520,180.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="610.0" y="186.72" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">solicita</text>
+<polyline points="340,180 520,180" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="700,180 900,180" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="365" y="166.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(0,N)</text>
+<text x="790" y="166.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<ellipse cx="205.0" cy="335.0" rx="25.0" ry="25.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="205.0" y="342.68" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">o</text>
+<polyline points="202,220 202,310" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="208,220 208,310" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="205,360 180,450" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="205,360 555,450" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="300" y="352.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">total y superpuesta</text>
+<text x="50" y="577.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Los subtipos heredan idUsuario.</text>
+<polygon points="805.0,450 880,490.0 805.0,530 730,490.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="805.0" y="496.71999999999997" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">registra</text>
+<polyline points="690,490 730,490" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="805,450 805,300 850,300 850,200 900,200" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="670" y="429.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(0,N)</text>
+<text x="858" y="269.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<polygon points="1035.0,450 1130,490.0 1035.0,530 940,490.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<polygon points="1035.0,456 1124,490.0 1035.0,524 946,490.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1035.0" y="496.71999999999997" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">contiene</text>
+<polyline points="1035,220 1035,450" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1035,530 1035,710" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1052" y="349.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,N)</text>
+<text x="1052" y="629.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<polygon points="1295.0,710 1380,750.0 1295.0,790 1210,750.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1295.0" y="756.72" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">corresponde</text>
+<polyline points="1170,750 1210,750" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1380,750 1400,750" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1166" y="836.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<text x="1406" y="836.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(0,N)</text>
+<polygon points="1475.0,450 1560,490.0 1475.0,530 1390,490.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1475.0" y="496.71999999999997" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">clasifica</text>
+<polyline points="1475,220 1475,450" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1475,530 1495,710" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1492" y="349.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(0,N)</text>
+<text x="1510" y="619.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<polygon points="735.0,710 820,750.0 735.0,790 650,750.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="735.0" y="756.72" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">documenta</text>
+<polyline points="570,750 650,750" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="820,750 850,750" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="575" y="824.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(1,1)</text>
+<text x="770" y="824.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">(0,N)</text>
+<ellipse cx="205.0" cy="94.0" rx="85.0" ry="29.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="205.0" y="100.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">idUsuario</text>
+<polyline points="157.8671875,104.6 252.1328125,104.6" fill="none" stroke="#17232e" stroke-width="1"/>
+<polyline points="205,123 205,140" fill="none" stroke="#17365d" stroke-width="2"/>
+<ellipse cx="1035.0" cy="94.0" rx="90.0" ry="29.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1035.0" y="100.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">idPrestamo</text>
+<polyline points="978.8515625,104.6 1091.1484375,104.6" fill="none" stroke="#17232e" stroke-width="1"/>
+<polyline points="1035,123 1035,140" fill="none" stroke="#17365d" stroke-width="2"/>
+<ellipse cx="1475.0" cy="94.0" rx="90.0" ry="29.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1475.0" y="100.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">idTipo</text>
+<polyline points="1444.83203125,104.6 1505.16796875,104.6" fill="none" stroke="#17232e" stroke-width="1"/>
+<polyline points="1475,123 1475,140" fill="none" stroke="#17365d" stroke-width="2"/>
+<ellipse cx="460.0" cy="639.0" rx="95.0" ry="29.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="460.0" y="645.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">idIncidencia</text>
+<polyline points="400.0625,649.6 519.9375,649.6" fill="none" stroke="#17232e" stroke-width="1"/>
+<polyline points="460,668 460,710" fill="none" stroke="#17365d" stroke-width="2"/>
+<ellipse cx="1040.0" cy="869.0" rx="120.0" ry="29.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1040.0" y="875.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">numeroRenglon</text>
+<polyline points="960.83984375,879.6 1119.16015625,879.6" fill="none" stroke="#17232e" stroke-width="1" stroke-dasharray="7 5"/>
+<polyline points="1040,840 1035,790" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="905.95703125" y="662" width="648.0859375" height="28" fill="white"/>
+<text x="1230" y="683.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Agregación ERE  Asignación de un ejemplar a un detalle</text>
+<text x="55" y="958.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Lectura: el par junto a una entidad indica sus participaciones mínima y máxima en esa relación.</text>
+<text x="55" y="991.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Doble rectángulo: entidad débil. Doble rombo: identificación. La línea doble hacia o indica totalidad.</text>
+<text x="55" y="1022.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Los atributos completos se detallan en las hojas 2 y 3. N significa varios; 0 indica participación opcional.</text>
+</svg>

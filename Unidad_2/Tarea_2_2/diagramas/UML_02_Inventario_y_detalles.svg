@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1110" viewBox="0 0 1640 1110">
+<rect width="100%" height="100%" fill="white"/>
+<text x="820.0" y="51.6" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Diagrama UML del inventario y los detalles de préstamo</text>
+<rect x="60" y="100" width="420" height="166" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="270.0" y="135.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Prestamo</text>
+<polyline points="60,153 480,153" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="74" y="186.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">idPrestamo: Integer {id}</text>
+<text x="74" y="217.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">fechaSalida: DateTime [1]</text>
+<text x="74" y="248.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">fechaLimite: DateTime [1]</text>
+<rect x="590" y="390" width="470" height="197" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="825.0" y="425.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">DetallePrestamo</text>
+<polyline points="590,443 1060,443" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="604" y="476.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">numeroRenglon: Integer {id parcial}</text>
+<text x="604" y="507.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">condicionSalida: String [1]</text>
+<text x="604" y="538.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">fechaDevolucion: DateTime [0..1]</text>
+<text x="604" y="569.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">condicionEntrada: String [0..1]</text>
+<rect x="1230" y="390" width="360" height="166" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1410.0" y="425.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Ejemplar</text>
+<polyline points="1230,443 1590,443" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1244" y="475.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">idEjemplar: Integer {id}</text>
+<text x="1244" y="506.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">codigoInventario: String {unique}</text>
+<text x="1244" y="537.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">estadoOperativo: EstadoOperativo</text>
+<rect x="1230" y="70" width="360" height="166" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1410.0" y="105.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">TipoMaterial</text>
+<polyline points="1230,123 1590,123" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1244" y="156.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">idTipo: Integer {id}</text>
+<text x="1244" y="187.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">nombre: String [1]</text>
+<text x="1244" y="218.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">deporte: String [1]</text>
+<rect x="60" y="750" width="420" height="197" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="270.0" y="785.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Incidencia</text>
+<polyline points="60,803 480,803" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="74" y="836.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">idIncidencia: Integer {id}</text>
+<text x="74" y="867.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">fechaReporte: DateTime [1]</text>
+<text x="74" y="898.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">descripcion: String [1]</text>
+<text x="74" y="929.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">estado: EstadoIncidencia</text>
+<polyline points="480,205 825,205 825,390" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="480.0,205.0 500.0,214.0 520.0,205.0 500.0,196.0" fill="#17365d" stroke="#17365d" stroke-width="2"/>
+<text x="500" y="189.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1</text>
+<text x="845" y="364.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1..*</text>
+<text x="550" y="234.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">detalles</text>
+<polyline points="1060,510 1230,510" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="1070" y="488.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">0..*</text>
+<text x="1190" y="488.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1</text>
+<text x="1080" y="551.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">ejemplar</text>
+<polyline points="1410,236 1410,390" fill="none" stroke="#17365d" stroke-width="2"/>
+<polygon points="1410.0,236.0 1401.0,256.0 1410.0,276.0 1419.0,256.0" fill="white" stroke="#17365d" stroke-width="2"/>
+<text x="1430" y="271.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1</text>
+<text x="1430" y="366.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">0..*</text>
+<polyline points="590,510 530,510 530,875 480,875" fill="none" stroke="#17365d" stroke-width="2"/>
+<text x="553" y="487.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1</text>
+<text x="490" y="908.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">0..*</text>
+<text x="380" y="689.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">incidencias</text>
+<text x="650" y="796.16" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Identificación de DetallePrestamo</text>
+<text x="650" y="837.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">{id: prestamo.idPrestamo + numeroRenglon}</text>
+<text x="650" y="892.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">{Por ejemplar: a lo sumo un detalle sin devolución}</text>
+<text x="650" y="944.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">No se crea una clase Asignacion adicional.</text>
+<text x="45" y="1028.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">EstadoOperativo = {apto, mantenimiento, baja}. EstadoIncidencia = {abierta, resuelta}.</text>
+<text x="45" y="1069.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Rombo negro: composición. Rombo blanco: agregación compartida. Prestamo es la misma clase de la hoja 1.</text>
+</svg>
