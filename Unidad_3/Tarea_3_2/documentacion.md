@@ -1,4 +1,4 @@
-# Tarea 3.2 Diseño físico pendiente de ejecución y evidencias
+# Tarea 3.2 Diseño físico y validación en SQL Server
 
 Alumno: Jesús Armando Zendejo Altamirano  
 Materia: Fundamentos de Bases de Datos  
@@ -12,7 +12,7 @@ Esquema físico en SQL Server y script LDD
 
 Proyecto Préstamo de material deportivo universitario
 
-PENDIENTE DE EJECUCIÓN Y EVIDENCIAS DE SQL SERVER
+EJECUCIÓN Y VALIDACIÓN REALIZADAS EN SQL SERVER
 
 Nombre: Jesús Armando Zendejo Altamirano
 
@@ -28,15 +28,15 @@ El diseño físico corresponde al esquema relacional de la tarea 3.1 y utiliza S
 
 Estado de ejecución
 
-El script fue revisado estáticamente. Este documento no acredita todavía su ejecución en SQL Server ni contiene un diagrama generado por SSMS. Las secciones E1 a E4 permanecen pendientes de sus evidencias reales.
+El esquema se ejecutó en SQL Server Express. Las capturas de la sesión muestran la creación de la base, las nueve tablas, el diagrama físico generado por SSMS y el resultado de veinte pruebas correctas, sin fallas. Las evidencias E1 a E4 están integradas en el reporte técnico final en PDF.
 
 | Dato de la ejecución | Registro |
 | --- | --- |
-| Motor y versión reales | PENDIENTE |
-| Fecha y hora de ejecución | PENDIENTE |
-| Resultado de creación limpia | PENDIENTE |
-| Resultado de los veinte casos de prueba | PENDIENTE |
-| Diagrama físico generado por SSMS | PENDIENTE |
+| Motor y versión reales | SQL Server Express 16.0.1000.6 |
+| Fecha y hora de ejecución | 2 de noviembre de 2026, 18:43 (validación) |
+| Resultado de creación limpia | Base y nueve tablas creadas |
+| Resultado de los veinte casos de prueba | 20 correctas, 0 fallidas |
+| Diagrama físico generado por SSMS | Realizado y capturado |
 
 Decisiones físicas
 
@@ -152,7 +152,7 @@ Microsoft (s. f.-d). Primary and foreign key constraints. https://learn.microsof
 
 E1 Creación limpia y entorno real
 
-[EVIDENCIA REAL PENDIENTE DE INSERTAR]
+Evidencia real integrada en el reporte PDF final (captura de SQL Server).
 
 Captura de SSMS con schema.sql ejecutado, mensajes reales y las nueve tablas del proyecto. Motor, versión y fecha deben corresponder a la instancia utilizada.
 
