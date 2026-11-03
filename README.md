@@ -54,6 +54,7 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 ### Tarea 3.1: Transformación de modelo E-R a esquema relacional y reglas de integridad
 
 - [Reporte técnico PDF](Unidad_3/Tarea_3_1/Reporte_Tarea_3_1_Modelo_Relacional.pdf)
+- [Documento editable Word](Unidad_3/Tarea_3_1/Reporte_Tarea_3_1_Modelo_Relacional.docx)
 - [Documentación y restricciones de integridad](Unidad_3/Tarea_3_1/documentacion.md)
 - [Diagrama editable Draw.io](Unidad_3/Tarea_3_1/diagramas/Esquema_Relacional_Deportes.drawio)
 - [Esquema relacional en PDF](Unidad_3/Tarea_3_1/diagramas/Esquema_Relacional_Deportes.pdf)
@@ -62,15 +63,20 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 
 ### Tarea 3.2: Esquema físico en SQL Server y script DDL
 
-- [Script principal DDL — schema.sql](Unidad_3/Tarea_3_2/sql/schema.sql)
-- [Creación de la base de datos](Unidad_3/Tarea_3_2/sql/00_crear_base.sql)
-- [Operaciones transaccionales](Unidad_3/Tarea_3_2/sql/02_operaciones.sql)
-- [Datos de ejemplo](Unidad_3/Tarea_3_2/sql/03_datos_ejemplo.sql)
-- [Pruebas de integridad](Unidad_3/Tarea_3_2/sql/04_pruebas_integridad.sql)
-- [Verificación del esquema](Unidad_3/Tarea_3_2/sql/05_verificar_esquema.sql)
+- [Reporte técnico PDF con evidencias](Unidad_3/Tarea_3_2/Reporte_Tarea_3_2.pdf)
 - [Documentación técnica](Unidad_3/Tarea_3_2/documentacion.md)
+- [Guía y orden de ejecución](Unidad_3/Tarea_3_2/README.md)
+- [Script principal DDL — schema.sql](Unidad_3/Tarea_3_2/sql/schema.sql)
+- [Creación de la base de datos](Unidad_3/Tarea_3_2/sql/01_crear_base.sql)
+- [Datos de ejemplo](Unidad_3/Tarea_3_2/sql/03_datos_ejemplo.sql)
+- [Pruebas y verificación](Unidad_3/Tarea_3_2/sql/04_pruebas_y_verificacion.sql)
+- [Verificación adicional del catálogo](Unidad_3/Tarea_3_2/sql/Apoyo/Verificar_Catalogo_Completo.sql)
+- [Diagrama físico de SQL Server en PNG](Unidad_3/Tarea_3_2/diagramas/Diagrama_Fisico_SQL_Server.png)
+- [Diagrama físico en PDF](Unidad_3/Tarea_3_2/diagramas/Diagrama_Fisico_SQL_Server.pdf)
+- [Capturas y evidencias de ejecución](Unidad_3/Tarea_3_2/evidencias)
+- [Video explicativo en YouTube](https://youtu.be/TIleC__uPwQ)
 
-**Validación realizada en SQL Server:** nueve tablas y veinte casos de prueba correctos, sin fallas. Las capturas y el reporte PDF final con evidencias deben incorporarse al repositorio si se desea consultarlos desde aquí; el PDF final también se entrega en Teams.
+**Validación realizada en SQL Server:** nueve tablas, nueve claves primarias, nueve claves foráneas y veinte CHECK. Se registraron veinte pruebas correctas y cero fallidas.
 
 ---
 
