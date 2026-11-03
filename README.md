@@ -47,8 +47,6 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 
 ---
 
----
-
 ## Unidad 3: Modelo relacional
 
 **Caso de estudio:** Préstamo de material deportivo universitario (continuación de la Unidad 2).
