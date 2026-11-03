@@ -13,7 +13,7 @@ Caso: préstamo de material deportivo de la Unidad 2.
 
 ## Tarea 3.2
 
-**Estado: revisión estática; pendiente de ejecución y validación real en SQL Server.**
+**Estado: ejecución y validación real realizadas en SQL Server Express 16.0.1000.6.** Se comprobó la creación de nueve tablas, nueve PK, nueve FK, veinte CHECK y el resultado de 20 pruebas correctas, 0 fallidas.
 
 - [DDL schema.sql](Tarea_3_2/sql/schema.sql)
 - [Operaciones transaccionales](Tarea_3_2/sql/02_operaciones.sql)
@@ -24,4 +24,4 @@ Caso: préstamo de material deportivo de la Unidad 2.
 
 Orden: 00_crear_base.sql, schema.sql, 02_operaciones.sql, 03_datos_ejemplo.sql, 04_pruebas_integridad.sql y 05_verificar_esquema.sql. Abrir cada archivo en SSMS y ejecutarlo completo antes de continuar. Los scripts no borran bases existentes.
 
-La tarea 3.2 requiere agregar el reporte final y el diagrama generado por SSMS después de ejecutar y validar el esquema. El diagrama de la tarea 3.1 es un diseño lógico y no sustituye esa evidencia.
+Ya se cuenta con capturas reales de creación, diagrama físico de SSMS y pruebas de integridad. El PDF final con esas evidencias está preparado para entregar en Teams; falta subirlo al repositorio si también se desea enlazarlo aquí. El diagrama de la tarea 3.1 es lógico y no sustituye el generado por SSMS.
