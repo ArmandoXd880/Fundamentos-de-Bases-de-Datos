@@ -70,7 +70,7 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 - [Verificación del esquema](Unidad_3/Tarea_3_2/sql/05_verificar_esquema.sql)
 - [Documentación técnica](Unidad_3/Tarea_3_2/documentacion.md)
 
-**Pendiente de integrar:** reporte PDF final, diagrama físico generado por SSMS y evidencias reales de ejecución y validación.
+**Validación realizada en SQL Server:** nueve tablas y veinte casos de prueba correctos, sin fallas. Las capturas y el reporte PDF final con evidencias deben incorporarse al repositorio si se desea consultarlos desde aquí; el PDF final también se entrega en Teams.
 
 ---
 
@@ -78,4 +78,4 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 
 Cada unidad contiene carpetas individuales para sus actividades, incluyendo reportes técnicos, documentación y diagramas.
 
-Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutan en SQL Server y requieren validación real para documentar los resultados.
+Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutaron en SQL Server y se documentó la validación mediante capturas.
