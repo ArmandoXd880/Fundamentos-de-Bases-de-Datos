@@ -80,8 +80,49 @@ Repositorio académico que contiene los reportes, documentación y diagramas cor
 
 ---
 
+## Unidad 4: Normalización de bases de datos
+
+**Proyecto:** Préstamo de material deportivo universitario.  
+**Alumno:** Jesús Armando Zendejo Altamirano.
+
+### Tarea 4.1: Fundamentos de normalización
+
+- [Reporte PDF](Unidad_4/Tarea_4_1/Reporte_Tarea_4_1_Normalizacion.pdf)
+- [Documento editable](Unidad_4/Tarea_4_1/Reporte_Tarea_4_1_Normalizacion.docx)
+- [Desarrollo teórico](Unidad_4/Tarea_4_1/documentacion.md)
+- [Mapa conceptual editable](Unidad_4/Tarea_4_1/diagramas/Mapa_Conceptual_Normalizacion.drawio)
+- [Mapa vectorial PDF](Unidad_4/Tarea_4_1/diagramas/Mapa_Conceptual_Normalizacion.pdf)
+
+### Tarea 4.2: Normalización aplicada al proyecto
+
+- [Reporte PDF](Unidad_4/Tarea_4_2/Reporte_Tarea_4_2_Normalizacion_Aplicada.pdf)
+- [Documento editable](Unidad_4/Tarea_4_2/Reporte_Tarea_4_2_Normalizacion_Aplicada.docx)
+- [Proceso analítico](Unidad_4/Tarea_4_2/documentacion.md)
+- [Proceso editable](Unidad_4/Tarea_4_2/diagramas/Proceso_Normalizacion.drawio)
+- [SQL normalizado](Unidad_4/Tarea_4_2/sql/normalized_schema.sql)
+- [Comprobación analítica](Unidad_4/Tarea_4_2/comprobacion/README.md)
+
+El esquema final conserva las nueve tablas de la Unidad 3 porque el diseño previo ya había separado correctamente estos hechos. El análisis parte de una hoja agrupada del mismo caso de estudio y no modifica la historia de ejecución de la Unidad 3.
+
+### SQL Server — Unidad 4
+
+La base de datos nueva se llama `PrestamosDeportivosU4`. Ejecutar los archivos en este orden:
+
+1. `00_crear_base.sql`
+2. `normalized_schema.sql`
+3. `02_operaciones.sql`
+4. `03_datos_ejemplo.sql`
+5. `04_pruebas_integridad.sql`
+6. `05_verificar_esquema.sql`
+
+Abrir cada archivo en SQL Server Management Studio (SSMS) y ejecutar su contenido completo con **F5**. Detenerse ante cualquier error. Estos scripts no eliminan bases de datos existentes y no constituyen una migración.
+
+**Estado del SQL:** revisado estáticamente; la ejecución y validación real en SQL Server están pendientes. Las comprobaciones analíticas son cálculos del modelo y ejemplos, no resultados del SGBD. Los datos de ejemplo son ficticios.
+
+---
+
 ## Organización de archivos
 
 Cada unidad contiene carpetas individuales para sus actividades, incluyendo reportes técnicos, documentación y diagramas.
 
-Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutaron en SQL Server y se documentó la validación mediante capturas.
+Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutaron en SQL Server y se documentó la validación mediante capturas. Los scripts SQL de la Unidad 4 tienen su estado de revisión y ejecución documentado en esta sección.
