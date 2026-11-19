@@ -1,0 +1,75 @@
+{
+  "tipo": "Cálculos analíticos en Python, sin ejecución de SQL Server",
+  "comprobaciones": [
+    {
+      "comprobacion": "Claves de R1",
+      "resultado": "CORRECTO",
+      "detalle": "Se enumeraron todos los subconjuntos de los 12 atributos: PN, PE y PC son las únicas candidatas."
+    },
+    {
+      "comprobacion": "Cierres de las tres claves",
+      "resultado": "CORRECTO",
+      "detalle": "Cada clave obtiene los 12 atributos y no tiene un subconjunto que lo haga."
+    },
+    {
+      "comprobacion": "Dependencia parcial en 1FN",
+      "resultado": "CORRECTO",
+      "detalle": "P determina FS sin ser una clave de R1; P es parte propia de PN, PE y PC."
+    },
+    {
+      "comprobacion": "Sin pérdida Extraer cabecera",
+      "resultado": "CORRECTO",
+      "detalle": "La intersección P determina una de las relaciones."
+    },
+    {
+      "comprobacion": "Sin pérdida Extraer inventario",
+      "resultado": "CORRECTO",
+      "detalle": "La intersección E determina una de las relaciones."
+    },
+    {
+      "comprobacion": "Sin pérdida Extraer usuario",
+      "resultado": "CORRECTO",
+      "detalle": "La intersección U determina una de las relaciones."
+    },
+    {
+      "comprobacion": "Sin pérdida Extraer tipo",
+      "resultado": "CORRECTO",
+      "detalle": "La intersección T determina una de las relaciones."
+    },
+    {
+      "comprobacion": "Conservación de todas las DF",
+      "resultado": "CORRECTO",
+      "detalle": "Las DF de R1 se deducen de la unión de sus proyecciones normalizadas."
+    },
+    {
+      "comprobacion": "FNBC de la proyección",
+      "resultado": "CORRECTO",
+      "detalle": "Se revisaron todos los determinantes posibles de cada una de las cinco relaciones de la proyección."
+    },
+    {
+      "comprobacion": "Reconstrucción de ejemplo",
+      "resultado": "CORRECTO",
+      "detalle": "Se recuperan exactamente las tres filas ficticias, sin pérdida ni tuplas espurias. El criterio general se comprobó antes mediante DF."
+    },
+    {
+      "comprobacion": "Correspondencia y FNBC de nueve tablas",
+      "resultado": "CORRECTO",
+      "detalle": "Claves PK/UNIQUE y 39 columnas coinciden con el reporte. FNBC se calcula bajo las DF declaradas; no demuestra reglas de negocio no especificadas."
+    },
+    {
+      "comprobacion": "Ejemplo 3FN sin FNBC",
+      "resultado": "CORRECTO",
+      "detalle": "Todas las columnas son primas, pero sala no es superclave y determina instructor."
+    },
+    {
+      "comprobacion": "Ejemplo de DMV",
+      "resultado": "CORRECTO",
+      "detalle": "Dos teléfonos independientes de dos deportes se reconstruyen en cuatro combinaciones; el ejemplo no añade esa regla al proyecto."
+    },
+    {
+      "comprobacion": "Ejemplo de reunión ternaria",
+      "resultado": "CORRECTO",
+      "detalle": "El ejemplo satisface la regla declarada de compatibilidad de los tres pares. No demuestra una regla universal por observación de una muestra."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1030" viewBox="0 0 1640 1030">
+<rect width="100%" height="100%" fill="white"/>
+<text x="820.0" y="51.6" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Normalización dependencias y anomalías</text>
+<rect x="555" y="90" width="530" height="115" fill="#edf4ee" stroke="#17365d" stroke-width="2"/>
+<text x="573" y="124.24000000000001" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">NORMALIZACIÓN</text>
+<text x="573" y="162.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">organiza relaciones según sus dependencias</text>
+<rect x="40" y="300" width="450" height="250" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="58" y="334.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Dependencias funcionales</text>
+<text x="58" y="372.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">X → Y: igual X implica igual Y.</text>
+<text x="58" y="402.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Completa: ningún subconjunto de X</text>
+<text x="58" y="432.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">determina Y. Parcial: alguno sí.</text>
+<text x="58" y="462.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Transitiva: una clave determina Y</text>
+<text x="58" y="492.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">mediante un atributo no clave.</text>
+<rect x="595" y="300" width="450" height="250" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="613" y="334.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Anomalías de los datos</text>
+<text x="613" y="372.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Inserción: no registrar un tipo nuevo</text>
+<text x="613" y="402.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">sin inventar un préstamo.</text>
+<text x="613" y="432.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Modificación: cambiar el mismo</text>
+<text x="613" y="462.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">dato en muchas filas.</text>
+<text x="613" y="492.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Borrado: perder el catálogo al borrar.</text>
+<rect x="1150" y="300" width="450" height="250" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="1168" y="334.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Descomposición correcta</text>
+<text x="1168" y="372.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Divide relaciones por determinantes.</text>
+<text x="1168" y="402.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Exige reunión sin pérdida.</text>
+<text x="1168" y="432.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Busca conservar dependencias.</text>
+<text x="1168" y="462.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Las reglas provienen del negocio,</text>
+<text x="1168" y="492.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">no solo de los datos de muestra.</text>
+<polyline points="820,205 820,250 265,250 265,300" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="271.0,288.0 265.0,300.0 259.0,288.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="189.36328125" y="260" width="151.2734375" height="27" fill="white"/>
+<text x="265" y="280.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">se analiza con</text>
+<polyline points="820,205 820,250 820,250 820,300" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="826.0,288.0 820.0,300.0 814.0,288.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="778.8046875" y="260" width="82.390625" height="27" fill="white"/>
+<text x="820" y="280.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">corrige</text>
+<polyline points="820,205 820,250 1375,250 1375,300" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1381.0,288.0 1375.0,300.0 1369.0,288.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="1273.53515625" y="260" width="202.9296875" height="27" fill="white"/>
+<text x="1375" y="280.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">se realiza mediante</text>
+<rect x="70" y="700" width="700" height="180" fill="#edf4ee" stroke="#17365d" stroke-width="2"/>
+<text x="88" y="734.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Claves y cierre</text>
+<text x="88" y="772.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">X+ reúne lo deducible desde X con las DF.</text>
+<text x="88" y="802.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Superclave: X+ cubre todos los atributos.</text>
+<text x="88" y="832.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Clave candidata: superclave mínima.</text>
+<text x="88" y="862.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Atributo primo: pertenece a alguna clave candidata.</text>
+<rect x="870" y="700" width="700" height="180" fill="#edf4ee" stroke="#17365d" stroke-width="2"/>
+<text x="888" y="734.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Formas normales</text>
+<text x="888" y="772.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">1FN → 2FN → 3FN → FNBC → 4FN → 5FN.</text>
+<text x="888" y="802.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Cada nivel añade condiciones al anterior.</text>
+<text x="888" y="832.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Las DF sustentan 2FN, 3FN y FNBC.</text>
+<text x="888" y="862.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">4FN añade DMV; 5FN, dependencias de reunión.</text>
+<polyline points="265,550 265,625 420,625 420,700" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="426.0,688.0 420.0,700.0 414.0,688.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="392" y="589" width="203.6953125" height="27" fill="white"/>
+<text x="400" y="609.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">se comprueban con</text>
+<polyline points="1375,550 1375,625 1220,625 1220,700" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1226.0,688.0 1220.0,700.0 1214.0,688.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="1202" y="589" width="136.921875" height="27" fill="white"/>
+<text x="1210" y="609.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">se evalúa en</text>
+<text x="820" y="975.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">DF = dependencia funcional. DMV = dependencia multivaluada. Ejemplos del préstamo deportivo.</text>
+</svg>

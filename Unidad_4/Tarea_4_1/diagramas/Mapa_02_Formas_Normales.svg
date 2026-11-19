@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1030" viewBox="0 0 1640 1030">
+<rect width="100%" height="100%" fill="white"/>
+<text x="820.0" y="51.6" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Condiciones de las formas normales</text>
+<rect x="60" y="120" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="78" y="154.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">1FN  Valores atómicos</text>
+<text x="78" y="192.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Un valor por atributo y tupla, según su dominio.</text>
+<text x="78" y="222.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Sin listas de piezas o teléfonos en una celda.</text>
+<text x="78" y="252.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Ejemplo: UsuarioTelefono(idUsuario, telefono).</text>
+<rect x="900" y="120" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="918" y="154.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">2FN  Dependencia completa</text>
+<text x="918" y="192.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">1FN y ningún atributo no primo depende de</text>
+<text x="918" y="222.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">una parte propia de alguna clave candidata.</text>
+<text x="918" y="252.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Separa la cabecera de las líneas del préstamo.</text>
+<rect x="900" y="430" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="918" y="464.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">3FN  Condición sobre cada DF</text>
+<text x="918" y="502.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Para cada X → A no trivial: X es superclave</text>
+<text x="918" y="532.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">o A es primo. Evita las transitivas que la violan.</text>
+<text x="918" y="562.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Separa idTipo → nombreTipo, deporte.</text>
+<rect x="60" y="430" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="78" y="464.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">FNBC  Determinantes superclave</text>
+<text x="78" y="502.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Para toda DF no trivial X → Y, X es superclave.</text>
+<text x="78" y="532.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Examina todas las claves y dependencias.</text>
+<text x="78" y="562.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Es más exigente que 3FN.</text>
+<rect x="60" y="740" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="78" y="774.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">4FN  Independencia multivaluada</text>
+<text x="78" y="812.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Para toda DMV no trivial X →→ Y,</text>
+<text x="78" y="842.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">X debe ser superclave. Separa conjuntos</text>
+<text x="78" y="872.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">independientes como teléfonos y deportes.</text>
+<rect x="900" y="740" width="680" height="200" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="918" y="774.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">5FN  Dependencias de reunión</text>
+<text x="918" y="812.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Toda dependencia de reunión no trivial</text>
+<text x="918" y="842.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">debe estar implicada por las claves candidatas.</text>
+<text x="918" y="872.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">No descomponer una relación ternaria sin regla.</text>
+<polyline points="740,220 900,220" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="888.0,214.0 900.0,220.0 888.0,226.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="782.46484375" y="182" width="75.0703125" height="27" fill="white"/>
+<text x="820" y="202.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">añade</text>
+<polyline points="1240,320 1240,430" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1246.0,418.0 1240.0,430.0 1234.0,418.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="1202.46484375" y="362" width="75.0703125" height="27" fill="white"/>
+<text x="1240" y="382.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">añade</text>
+<polyline points="900,530 740,530" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="752.0,536.0 740.0,530.0 752.0,524.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="772.53515625" y="492" width="94.9296875" height="27" fill="white"/>
+<text x="820" y="512.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">refuerza</text>
+<polyline points="400,630 400,740" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="406.0,728.0 400.0,740.0 394.0,728.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="362.46484375" y="672" width="75.0703125" height="27" fill="white"/>
+<text x="400" y="692.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">añade</text>
+<polyline points="740,840 900,840" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="888.0,834.0 900.0,840.0 888.0,846.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="782.46484375" y="802" width="75.0703125" height="27" fill="white"/>
+<text x="820" y="822.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">añade</text>
+</svg>

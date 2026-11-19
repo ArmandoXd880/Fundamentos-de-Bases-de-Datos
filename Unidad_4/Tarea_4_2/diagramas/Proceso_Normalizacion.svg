@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1030" viewBox="0 0 1640 1030">
+<rect width="100%" height="100%" fill="white"/>
+<text x="820.0" y="51.6" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="middle">Normalización aplicada a la hoja de préstamo</text>
+<rect x="60" y="100" width="650" height="180" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="78" y="134.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Estado no normalizado</text>
+<text x="78" y="172.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Una hoja contiene teléfonos {t} y piezas {…}.</text>
+<text x="78" y="202.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Mezcla usuario, préstamo, inventario y tipo.</text>
+<text x="78" y="232.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">No es el esquema físico de la Unidad 3.</text>
+<rect x="930" y="100" width="650" height="180" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="948" y="134.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Primera forma normal</text>
+<text x="948" y="172.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">R1 contiene una fila por renglón de préstamo.</text>
+<text x="948" y="202.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Los teléfonos se guardan en relación aparte.</text>
+<text x="948" y="232.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Claves de R1: PN, PE y PC.</text>
+<rect x="930" y="460" width="650" height="220" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="948" y="494.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Segunda forma normal</text>
+<text x="948" y="532.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Cabecera2(P, U, S, FS, FL).</text>
+<text x="948" y="562.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Inventario2(E, C, T, NT, D).</text>
+<text x="948" y="592.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Detalle2(P, N, E, CS).</text>
+<text x="948" y="622.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Se eliminan las dependencias parciales.</text>
+<rect x="60" y="460" width="650" height="220" fill="#eaf2f8" stroke="#17365d" stroke-width="2"/>
+<text x="78" y="494.24" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">Tercera forma normal y FNBC</text>
+<text x="78" y="532.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Usuario(U, S) y Prestamo(P, U, FS, FL).</text>
+<text x="78" y="562.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Ejemplar(E, C, T) y TipoMaterial(T, NT, D).</text>
+<text x="78" y="592.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Detalle2 se conserva; teléfonos siguen aparte.</text>
+<text x="78" y="622.4" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">Se eliminan las dependencias transitivas.</text>
+<polyline points="710,190 930,190" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="918.0,184.0 930.0,190.0 918.0,196.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="757.640625" y="148" width="124.71875" height="27" fill="white"/>
+<text x="820" y="168.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">desagrupar</text>
+<polyline points="1255,280 1255,460" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="1261.0,448.0 1255.0,460.0 1249.0,448.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="1184.30859375" y="352" width="141.3828125" height="27" fill="white"/>
+<text x="1255" y="372.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">separar P y E</text>
+<polyline points="930,570 710,570" fill="none" stroke="#17365d" stroke-width="2"/>
+<polyline points="722.0,576.0 710.0,570.0 722.0,564.0" fill="none" stroke="#17365d" stroke-width="2"/>
+<rect x="748.28515625" y="528" width="143.4296875" height="27" fill="white"/>
+<text x="820" y="548.48" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="middle">separar U y T</text>
+<text x="70" y="804.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">P préstamo; N renglón; U solicitante; S nombres; FS salida; FL límite; E ejemplar;</text>
+<text x="70" y="844.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="normal" font-style="normal" text-anchor="start">C código de inventario; T tipo; NT nombre del tipo; D deporte; CS condición de salida.</text>
+<text x="70" y="924.32" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#17232e" font-weight="bold" font-style="normal" text-anchor="start">El SQL final completa esta proyección con perfiles, incidencias y los atributos de la Unidad 3.</text>
+</svg>
