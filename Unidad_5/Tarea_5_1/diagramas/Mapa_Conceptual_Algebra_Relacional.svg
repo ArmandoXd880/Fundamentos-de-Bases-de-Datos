@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="700" viewBox="0 0 920 700" role="img" aria-labelledby="title desc">
+<title id="title">Mapa conceptual de álgebra relacional</title>
+<desc id="desc">El álgebra relacional se organiza en álgebra clásica con operadores unarios y binarios, y en álgebra extendida con proyección generalizada, agregación y reuniones externas.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path fill="#526b82" d="M0 0 L7 3.5 L0 7z"/></marker></defs>
+<rect width="920" height="700" fill="#ffffff"/>
+<g font-family="Liberation Sans, DejaVu Sans, Arial, sans-serif">
+
+<rect x="260" y="16" width="400" height="69" rx="9" fill="#183657" stroke="#183657"/>
+<text x="460.0" y="43" text-anchor="middle" font-size="23" font-weight="bold" fill="white">Álgebra relacional</text>
+<text x="460.0" y="66" text-anchor="middle" font-size="16" font-weight="normal" fill="#e6eef5">Opera sobre relaciones y devuelve relaciones</text>
+<path d="M 390 85 V 100 H 227 V 125" fill="none" stroke="#526b82" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 530 85 V 100 H 693 V 125" fill="none" stroke="#526b82" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="148" y="119" text-anchor="middle" font-size="15" font-weight="normal" fill="#1c3043">se organiza en</text>
+<text x="773" y="119" text-anchor="middle" font-size="15" font-weight="normal" fill="#1c3043">amplía con</text>
+<rect x="17" y="127" width="420" height="52" rx="9" fill="#183657" stroke="#183657"/>
+<text x="227.0" y="160.0" text-anchor="middle" font-size="23" font-weight="bold" fill="white">Álgebra clásica</text>
+<rect x="483" y="127" width="420" height="52" rx="9" fill="#183657" stroke="#183657"/>
+<text x="693.0" y="160.0" text-anchor="middle" font-size="23" font-weight="bold" fill="white">Álgebra extendida</text>
+<path d="M 227 179 V 215" fill="none" stroke="#526b82" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 44 179 V 192 H 8 V 359 H 44 V 371" fill="none" stroke="#526b82" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M 693 179 V 215" fill="none" stroke="#526b82" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="299" y="204" text-anchor="middle" font-size="15" font-weight="normal" fill="#1c3043">usa una relación</text>
+<text x="120" y="354" text-anchor="middle" font-size="15" font-weight="normal" fill="#1c3043">usa dos relaciones</text>
+<text x="798" y="204" text-anchor="middle" font-size="15" font-weight="normal" fill="#1c3043">incorpora operaciones</text>
+<rect x="17" y="217" width="420" height="118" rx="9" fill="#f1f5f9" stroke="#bac9d7"/>
+<text x="35" y="241" text-anchor="start" font-size="21" font-weight="bold" fill="#19354f">Operadores unarios</text>
+<text x="36" y="268" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">σ</text>
+<text x="78" y="268" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Selección</text>
+<text x="78" y="288" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Conserva filas según un predicado.</text>
+<text x="36" y="306" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">π</text>
+<text x="78" y="306" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Proyección</text>
+<text x="78" y="326" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Elige atributos y elimina duplicados.</text>
+<rect x="17" y="373" width="420" height="308" rx="9" fill="#f1f5f9" stroke="#bac9d7"/>
+<text x="35" y="399" text-anchor="start" font-size="21" font-weight="bold" fill="#19354f">Operadores binarios</text>
+<text x="36" y="429" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">×</text>
+<text x="78" y="429" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Producto cartesiano</text>
+<text x="78" y="449" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Forma todas las parejas.</text>
+<text x="36" y="476" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">∪</text>
+<text x="78" y="476" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Unión</text>
+<text x="78" y="496" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Combina las tuplas de ambos conjuntos.</text>
+<text x="36" y="523" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">∩</text>
+<text x="78" y="523" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Intersección</text>
+<text x="78" y="543" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Conserva las tuplas comunes.</text>
+<text x="36" y="570" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">−</text>
+<text x="78" y="570" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Diferencia</text>
+<text x="78" y="590" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Conserva exclusivas de la izquierda.</text>
+<text x="36" y="617" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">÷</text>
+<text x="78" y="617" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">División</text>
+<text x="78" y="637" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Exige todas las tuplas del divisor.</text>
+<text x="36" y="655" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">⋈</text>
+<text x="78" y="655" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Reunión</text>
+<text x="78" y="675" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Combina parejas según una condición.</text>
+<rect x="483" y="217" width="420" height="274" rx="9" fill="#f1f5f9" stroke="#bac9d7"/>
+<text x="501" y="241" text-anchor="start" font-size="21" font-weight="bold" fill="#19354f">Operadores extendidos</text>
+<text x="502" y="273" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">π</text>
+<text x="544" y="273" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Proyección generalizada</text>
+<text x="544" y="293" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Calcula columnas con expresiones.</text>
+<text x="502" y="322" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">G</text>
+<text x="544" y="322" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Agregación</text>
+<text x="544" y="342" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Resume tuplas, con o sin grupos.</text>
+<text x="502" y="371" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">⟕</text>
+<text x="544" y="371" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Reunión externa izquierda</text>
+<text x="544" y="391" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Preserva las filas de la izquierda.</text>
+<text x="502" y="420" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">⟖</text>
+<text x="544" y="420" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Reunión externa derecha</text>
+<text x="544" y="440" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Preserva las filas de la derecha.</text>
+<text x="502" y="463" text-anchor="start" font-size="20" font-weight="bold" fill="#183657" font-family="DejaVu Sans">⟗</text>
+<text x="544" y="463" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Reunión externa completa</text>
+<text x="544" y="483" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Preserva las filas de los dos lados.</text>
+<rect x="483" y="506" width="420" height="97" rx="9" fill="#f7f9fb" stroke="#bac9d7"/>
+<text x="501" y="532" text-anchor="start" font-size="19" font-weight="bold" fill="#19354f">Compatibilidad y datos ausentes</text>
+<text x="501" y="557" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a" font-family="DejaVu Sans">∪, ∩ y − exigen esquemas compatibles.</text>
+<text x="501" y="581" text-anchor="start" font-size="16" font-weight="normal" fill="#35495a">Las reuniones externas completan con NULL.</text>
+</g></svg>
