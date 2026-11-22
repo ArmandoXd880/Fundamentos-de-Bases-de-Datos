@@ -121,8 +121,38 @@ Abrir cada archivo en SQL Server Management Studio (SSMS) y ejecutar su contenid
 
 ---
 
+## Unidad 5: Álgebra relacional
+
+**Caso de estudio:** Préstamo de material deportivo universitario (continuación del proyecto de las unidades anteriores).
+
+### Tarea 5.1: Operadores fundamentales y extendidos
+
+- [Reporte PDF sobre álgebra relacional](Unidad_5/Tarea_5_1/Reporte_Tarea_5_1_Algebra_Relacional.pdf)
+- [Documento editable Word](Unidad_5/Tarea_5_1/Reporte_Tarea_5_1_Algebra_Relacional.docx)
+- [Mapa conceptual vectorial SVG](Unidad_5/Tarea_5_1/diagramas/Mapa_Conceptual_Algebra_Relacional.svg)
+
+### Tarea 5.2: Catálogo de consultas de álgebra relacional
+
+- [Reporte PDF de consultas](Unidad_5/Tarea_5_2/Reporte_Tarea_5_2_Consultas_Algebra_Relacional.pdf)
+- [Documento editable Word](Unidad_5/Tarea_5_2/Reporte_Tarea_5_2_Consultas_Algebra_Relacional.docx)
+- [Catálogo de diez consultas T-SQL (C01–C10)](Unidad_5/Tarea_5_2/sql/01_catalogo_consultas.sql)
+- [Script de comprobación de datos de ejemplo](Unidad_5/Tarea_5_2/sql/02_validar_datos_ejemplo.sql)
+
+### SQL Server — Unidad 5
+
+Las consultas de la Tarea 5.2 reutilizan la base `PrestamosDeportivosU4` y el esquema definido en la Unidad 4. Para ejecutarlas en SQL Server Management Studio (SSMS), primero prepara esa base con los scripts de la Unidad 4 si aún no existe; después ejecuta:
+
+1. `01_catalogo_consultas.sql` — diez consultas sobre usuarios, perfiles, materiales, préstamos e incidencias.
+2. `02_validar_datos_ejemplo.sql` — comparación de los resultados obtenidos con los esperados para la primera carga de datos ficticios en una base vacía.
+
+Ambos scripts de la Unidad 5 son **de solo lectura**. La comprobación está diseñada para reportar diez estados `OK` con esa carga inicial; esto describe el resultado esperado, no certifica una ejecución real.
+
+- [Instrucciones completas y orden de preparación de la Unidad 5](Unidad_5/README.md)
+
+---
+
 ## Organización de archivos
 
 Cada unidad contiene carpetas individuales para sus actividades, incluyendo reportes técnicos, documentación y diagramas.
 
-Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutaron en SQL Server y se documentó la validación mediante capturas. Los scripts SQL de la Unidad 4 tienen su estado de revisión y ejecución documentado en esta sección.
+Los archivos SVG permiten visualizar los diagramas en formato vectorial. Los archivos DRAWIO contienen modelos editables mediante diagrams.net. Los archivos SQL de la Unidad 3 se ejecutaron en SQL Server y se documentó la validación mediante capturas. Los scripts SQL de la Unidad 4 tienen su estado de revisión y ejecución documentado en esta sección. La Unidad 5 incluye reportes de álgebra relacional y consultas T-SQL de lectura, con un script de comprobación de resultados esperados.
